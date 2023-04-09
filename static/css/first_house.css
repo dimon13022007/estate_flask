@@ -1,0 +1,191 @@
+
+* {
+  box-sizing: border-box
+
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.full-img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.popup img, .popup a {
+  position: relative;
+  z-index: 1000;
+}
+
+.popup a.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: white;
+}
+html,
+body  {
+  background-color: ;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+
+}
+
+.popup:not(:target) {
+  display: none;
+}
+
+.popup:target {
+
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.9);
+}
+.full-img {
+
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: red;
+}
+.wrapper{
+  width: 640px;
+  height: 590px;
+  border: 1px solid;
+  position: absolute;
+  bottom:103px;
+  right:873px;
+
+}
+
+.sliderWindow{
+  width: 0%;
+  height: 70%;
+  margin: -9px auto;
+  border: 1px solid;
+
+}
+
+.miniImgWrap{
+  position: absolute;
+  width: 600px;
+  margin: 15 auto;
+  display: flex;
+  justify-content: space-around;
+  right: 18px;
+
+}
+
+.miniImg{
+
+  right: -40px;
+  width: 600px;
+  height: 170px;
+  border: 1px solid;
+  display: inline-block;
+
+}
+
+.photochka{
+  position: absolute;
+  top: 64px;
+  right: 878px;
+  font-size: 30px;
+  text-decoration: none;
+  color: red;
+
+
+
+}
+.photochka2{
+  position: absolute;
+  top: 469px;
+  right: 888px;
+  font-size: 30px;
+  text-decoration: none;
+  color: red;
+
+
+
+
+}
+.photochka3{
+  position: absolute;
+  top: 469px;
+  right: 1291px;
+  font-size: 30px;
+  text-decoration: none;
+  color: red;
+
+
+
+}
+.photochka4{
+  position: absolute;
+  top: 469px;
+  right: 1090px;
+  font-size: 30px;
+  text-decoration: none;
+  color: red;
+
+
+
+}
+.card{
+  position: absolute;
+  top: 399px;
+  right: 90px;
+  font-size: 30px;
+  text-decoration: none;
+  color: red;
+}
+
+.text2{
+    position:absolute;
+    right: 159px;
+    height 300px;
+    width:700px;
+    background-color: #F5F5F5;
+
+}
+.knopcka {
+    position: absolute;
+    right: 339px;
+    bottom: 414px;
+
+
+}
+.btn-outline-secondary {
+  position: relative;
+  left: 1050px;
+  bottom: -295px;
+}

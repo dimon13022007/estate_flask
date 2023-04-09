@@ -1,0 +1,62 @@
+body {
+  background-color: #808080;
+}
+
+.text{
+    color:#000000;
+    position: absolute;
+    right: 1290px;
+    bottom: 600px;
+
+
+}
+
+.text2 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: ;
+  margin: 140px auto;
+  max-width: 600px;
+  text-align: justify;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  position: absolute;
+  right: 840px;
+
+}
+
+.text2 h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text2 p {
+  margin-bottom: 10px;
+}
+
+.text2 a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid #0066cc;
+}
+
+.text2 a:hover {
+
+  color: #fff;
+}
+
+.kartinka{
+    position: absolute;
+    right: 190px;
+    bottom: 200px;
+}
+
+.footer{
+    position: absolute;
+    bottom: -10px;
+    right: 770px;
+
+}
